@@ -8,20 +8,20 @@ Proyecto, en el cual están el backend y frontend, encargado de hacer la conexi�
 
 ## Getting Started
 
-### Dependencias
+### Requisitos
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Node.js 14.15.4
+* Windows 10
+* MySQL Server 8.0
+* Editor de código fuente. (Sugerencia: Visual Studio Code)
 
-### Installing
+### Instalación
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Clonar el proyecto o descargar el archivo zip.
 
-### Executing program
+### ejecución
 
-* How to run the program
-* Step-by-step bullets
+* Pasos para correr el programa:
 ```
 code blocks for commands
 ```
