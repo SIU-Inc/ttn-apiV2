@@ -1,14 +1,14 @@
-# TTN-API
+# TTN-Proyect
 
-Simple overview of use/purpose.
+Proyecto Trabajo Graduación TTN.
 
-## Description
+## Descripción
 
-An in-depth paragraph about your project and overview of use.
+Proyecto, en el cual están el backend y frontend, encargado de hacer la conexión a TTN y posteriormente mostar la información en la web.
 
 ## Getting Started
 
-### Dependencies
+### Dependencias
 
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 * ex. Windows 10
