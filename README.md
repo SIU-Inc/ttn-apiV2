@@ -38,3 +38,6 @@ Ricardo Urrutia
 
 Daniel Alcoleas
 [@Dalcoleas](https://github.com/Dalcoleas)
+
+Josué González Jr.
+[@joisgori](https://github.com/joisgori)
