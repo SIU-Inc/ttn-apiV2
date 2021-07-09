@@ -33,5 +33,8 @@ npm start
 
 ## Autores
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Ricardo Urrutia
+[@Urrutia8](https://github.com/Urrutia8)
+
+Daniel Alcoleas
+[@Dalcoleas](https://github.com/Dalcoleas)
