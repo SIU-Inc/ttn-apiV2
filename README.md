@@ -1,6 +1,4 @@
-# ttn-apiV2
-
-# Project Title
+# TTN-API
 
 Simple overview of use/purpose.
 
