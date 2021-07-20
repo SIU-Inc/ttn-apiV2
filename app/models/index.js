@@ -20,5 +20,14 @@ db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
 db.temperature = require("./temperature.model.js")(sequelize, Sequelize);
+db.general = require("./general.model.js")(sequelize, Sequelize);
+
+db.general.hasMany(db.temperature, {as: "temperature"});
+db.temperature.belongsTo(db.general, {
+  foreignKey: {name: "generalId", allowNull: false},
+  as: "general",
+  onDelete: "cascade",
+  hooks: true
+});
 
 module.exports = db;
