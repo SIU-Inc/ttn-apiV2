@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://ttn-tesis.herokuapp.com/dashboard",
 };
 
 app.use(cors(corsOptions));
@@ -21,11 +21,11 @@ const db = require("./app/models");
 var indexRouter = require("./app/routes/api");
 app.use("/api", indexRouter);
 
-//db.sequelize.sync();
+db.sequelize.sync();
 
-db.sequelize.sync({ force: true }).then(() => {
+/*db.sequelize.sync({ force: true }).then(() => {
   console.log("Drop and re-sync db.");
-});
+});*/
 
 
 // set port, listen for requests
